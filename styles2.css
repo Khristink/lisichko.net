@@ -312,8 +312,18 @@ li.req {
 }
 
 @media (max-width: 600px) {
-	body {
-		background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
-	}
-	
+    body {
+            background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+    }
+    .pen {
+        display: none;
+    }
+    .header {
+        height: 4rem;
+    }
+    .header a {
+        font-size: 2rem;
+    }
+
+
 }

@@ -310,3 +310,7 @@ li.req {
     grid-column: 9/11;
     grid-row: 2/4;
 }
+
+@media (max-width: 600px) {
+    background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+}

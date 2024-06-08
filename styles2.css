@@ -341,10 +341,12 @@ li.req {
     .main {
         height: 100%;
     }
+    .fox_logo {
+	height: 3rem;
+    }
 
     .header a {
-        font-size: 2rem;
-        padding: 1rem;
+        font-size: 3rem;
     }
     .phonenumb {
         display: none;

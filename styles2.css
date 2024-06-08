@@ -371,7 +371,7 @@ li.req {
         display: grid;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: repeat(4, 25%);
-        grid-column-gap: 0.5em;
+
     }
     .panel_btn h2 {
         font-size: 0.8em;

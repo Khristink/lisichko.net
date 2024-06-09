@@ -256,6 +256,9 @@ main {
     height: 80%;
     width: auto;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .magnet2 {
@@ -264,6 +267,9 @@ main {
     height: 80%;
     width: auto;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-note {
@@ -278,6 +284,9 @@ main {
     height: 100%;
     width: auto;
     border-bottom-left-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .text-panel {
     z-index: 1;
@@ -296,6 +305,9 @@ main {
     width: auto;
     border-bottom-left-radius: 25px;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .requests-panel {
@@ -314,6 +326,9 @@ li.req {
     width: auto;
     border-bottom-right-radius: 25%;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .pearl-list {
@@ -325,13 +340,18 @@ li.req {
     grid-column: 3/5;
     grid-row: 9/11;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .corner-grass5 {
     grid-column: 9/11;
     grid-row: 2/4;
     object-fit: contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-
 
 
 @media (max-width: 500px) {
@@ -396,6 +416,7 @@ li.req {
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr repeat(4, 23%) 1fr;
         justify-items: center;
+
     }
     .panel_btn h2 {
         font-size: 0.8em;

@@ -410,5 +410,14 @@ li.req {
         grid-row: 2;
         grid-column: 5;
     }
+    .photo {
+        grid-column: 2/6;
+        grid-row: 3/7;
+    }
+    .magnet {
+        z-index: 1;
+        grid-row: 3;
+        grid-column: 5;
+    }
 
 }

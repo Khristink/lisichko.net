@@ -387,10 +387,10 @@ li.req {
         display: grid;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr repeat(4, 23%) 1fr;
-
+        justify-items: center;
     }
     .panel_btn h2 {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     .btn1 {
         grid-column: 2;

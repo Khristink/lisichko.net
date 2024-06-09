@@ -365,50 +365,50 @@ li.req {
         grid-column: 1/6;
         grid-row: 1/5;
     }
-    .panel_btn {
-        padding-left: 3em;
-        padding-right: 2em;
+ .panel_btn {
+
         grid-column: 1/6;
         grid-row: 8/10;
+
         display: grid;
         grid-template-rows: 2fr 1fr;
-        grid-template-columns: repeat(4, 25%);
+        grid-template-columns: 1fr repeat(4, 23%) 1fr;
 
     }
     .panel_btn h2 {
         font-size: 0.8em;
     }
     .btn1 {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 1;
     }
     .btn2 {
-        grid-column: 2;
+        grid-column: 3;
         grid-row: 1;
     }
     .btn3 {
         grid-row: 1;
-        grid-column: 3;
+        grid-column: 4;
     }
     .btn4 {
         grid-row: 1;
-        grid-column: 4;
+        grid-column: 5;
     }
     #edu {
-        grid-column: 1;
+        grid-column: 2;
         grid-row: 2;
     }
     #req {
         grid-row: 2;
-        grid-column: 2;
+        grid-column: 3;
     }
     #cons {
-        grid-column: 3;
+        grid-column: 4;
         grid-row: 2;
     }
     #cont {
         grid-row: 2;
-        grid-column: 4;
+        grid-column: 5;
     }
 
 }

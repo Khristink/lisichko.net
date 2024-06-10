@@ -120,7 +120,9 @@ main {
     grid-template-columns: 5px repeat(10, 10fr) 10px;
     grid-template-rows: 10px repeat(10, 10fr) 10px;
 }
-
+.pad img {
+	display: block;
+}
 .pad_edu {
     overflow-x: hidden;
     scrollbar-width: thin;

@@ -423,7 +423,7 @@ li.req {
     }
     .photo {
         grid-column: 2/6;
-        grid-row: 3/5;
+        grid-row: 3/7;
 	transform: rotate(0deg);
     }
     .magnet {

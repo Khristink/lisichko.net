@@ -72,9 +72,6 @@ li a {
   font-style: normal;
 }
 
-
-
-
 .container {
     padding-top: 5px;
     padding-left: 30px;
@@ -156,6 +153,7 @@ main {
     grid-row: 9/13;
     grid-column: 3/5;
     object-fit: contain;
+    overflow-y: auto;
 }
 
 
@@ -230,7 +228,7 @@ main {
     grid-column: 3/7;
     grid-row: 3/7;
     background-color: #60a0b0;
-    background-image: url(IMG_0350.png");
+    background-image: url("IMG_0350.png");
     background-repeat: no-repeat;
     background-size: 90%;
     border-bottom-left-radius: 25px;
@@ -285,6 +283,7 @@ main {
     width: fit-content;
     border-bottom-left-radius: 25px;
     object-fit: fill;
+    overflow-y: auto;
 }
 .text-panel {
     z-index: 1;
@@ -303,6 +302,7 @@ main {
     width: fit-content;
     border-bottom-left-radius: 25px;
     object-fit: fill;
+    overflow-y: auto;
 }
 
 .requests-panel {
@@ -321,6 +321,7 @@ li.req {
     width: fit-content;
     border-bottom-right-radius: 25%;
     object-fit: fill;
+    overflow-y: auto;
 }
 
 .pearl-list {
@@ -335,6 +336,7 @@ li.req {
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow-y: auto;
 }
 .corner-grass5 {
     grid-column: 2/4;
@@ -470,7 +472,7 @@ li.req {
         grid-row: 9/12;
     }
     .pad_edu {
-        grid-column: 2/11;
+        grid-column: 3/11;
         grid-row: 2/7;
     }
     .slider {
@@ -499,12 +501,15 @@ li.req {
     }
     .requests-panel {
         grid-column: 3/11;
-        grid-row: 2/10;
+        grid-row: 2/12;
         font-size: 1rem;
         overflow: scroll;
         overflow-x: hidden;
         scrollbar-width: thin;
         scrollbar-color: #508070 #60a0b0;
+    }
+    ul {
+        padding-inline-start: 0;
     }
     .corner-grass3 {
         display: none;

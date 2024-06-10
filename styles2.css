@@ -267,8 +267,7 @@ main {
     grid-row: 5/13;
     grid-column: 1/9;
     border-bottom-left-radius: 25px;
-    height: auto;
-    width: 100%;
+    height: min-content;
     display: vlock;
 }
 .text-panel {

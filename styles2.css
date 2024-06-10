@@ -246,13 +246,13 @@ main {
     grid-row: 3;
     grid-column: 6;
     padding-top: 20px;
-    height: 75%
+    height: auto;
 }
 
 .magnet2 {
     grid-row: 10;
     grid-column: 10;
-    height: 60%;
+    height: auto;
 }
 
 .main-note {

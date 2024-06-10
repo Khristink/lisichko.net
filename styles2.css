@@ -274,6 +274,9 @@ main {
     z-index: 1;
     grid-row: 3/11;
     grid-column: 3/11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .text_about {
     z-index: 1;

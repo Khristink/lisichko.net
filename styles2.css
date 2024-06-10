@@ -507,4 +507,7 @@ li.req {
         object-fit: contain;
         overflow: hidden;
     }
+    .main-note {
+        grid-row: 3/8;
+    }
 }

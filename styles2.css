@@ -276,12 +276,10 @@ main {
 
 .grass {
     z-index: 0;
-    grid-row: 4/13;
-    grid-column: 1/7;
-    height: 100%;
-    width: fit-content;
+    grid-row: 6/13;
+    grid-column: 1/9;
     border-bottom-left-radius: 25px;
-    object-fit: fill;
+    height: min-content;
 }
 .text-panel {
     z-index: 1;
@@ -296,11 +294,8 @@ main {
 .corner-grass2 {
     grid-row: 9/13;
     grid-column: 1/6;
-    height: 100%;
-    width: fit-content;
+    height: min-content;
     border-bottom-left-radius: 25px;
-    object-fit: fill;
-    overflow-y: auto;
 }
 
 .requests-panel {
@@ -315,11 +310,8 @@ li.req {
 .corner-grass3 {
     grid-row: 9/13;
     grid-column: 9/13;
-    height: 100%;
-    width: fit-content;
+    height: min-content;
     border-bottom-right-radius: 25%;
-    object-fit: fill;
-    overflow-y: auto;
 }
 
 .pearl-list {
@@ -330,19 +322,12 @@ li.req {
 .corner-grass4 {
     grid-column: 10/12;
     grid-row: 10/12;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow-y: auto;
+    height: min-content;
 }
 .corner-grass5 {
     grid-column: 2/4;
     grid-row: 2/4;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: min-content;
 }
 
 

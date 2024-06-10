@@ -225,8 +225,9 @@ main {
     z-index: 1;
     grid-column: 3/7;
     grid-row: 3/7;
+    height: auto;
     background-color: #60a0b0;
-    background-image: url("IMG_0350.png");
+    background-image: url("images/IMG_0350.png");
     background-repeat: no-repeat;
     background-size: 90%;
     border-bottom-left-radius: 25px;
@@ -238,34 +239,20 @@ main {
     transform: rotate(350deg);
 }
 
-.profile-photo {
 
-    height: 110%;
-    width: auto;
-}
 
 .magnet {
     z-index: 1;
     grid-row: 3;
     grid-column: 6;
     padding-top: 20px;
-    height: 80%;
-    width: auto;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: min-content;
 }
 
 .magnet2 {
     grid-row: 10;
     grid-column: 10;
-    height: 80%;
-    width: auto;
-    object-fit: contain;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: min-content;
 }
 
 .main-note {
@@ -276,7 +263,7 @@ main {
 
 .grass {
     z-index: 0;
-    grid-row: 6/13;
+    grid-row: 7/13;
     grid-column: 1/9;
     border-bottom-left-radius: 25px;
     height: min-content;

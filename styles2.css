@@ -474,6 +474,9 @@ li.req {
         z-index: 1;
         grid-column: 9/11;
         grid-row: 11/12;
+        max-height: 100%;
+        object-fit: contain;
+        overflow: hidden;
     }
     .corner-grass4 {
         display: none;
@@ -497,8 +500,9 @@ li.req {
     height: 0.5rem;
     width: auto;
 }
-    .grass {z-index: 0;
-        grid-row: 6/12;
+    .grass {
+	z-index: 0;
+        grid-row: 7/13;
         max-height: 100%;
         object-fit: contain;
         overflow: hidden;

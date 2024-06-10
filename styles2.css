@@ -36,14 +36,14 @@ span a {
 h1 {
     font-weight: bold;
     color: #508070;
-    font-size: small;
+    font-size: 4vh;
     text-align: center;
 }
 
 h2 {
     font-weight: bold;
     color: #508070;
-    font-size: small;
+    font-size: 3vh;
     text-align: center;
 }
 
@@ -264,7 +264,7 @@ main {
     grid-row: 6/13;
     grid-column: 1/9;
     border-bottom-left-radius: 25px;
-    height: min-content;
+    max-height: 100%;
 }
 
 .text-panel {
@@ -320,7 +320,7 @@ li.req {
 }
 
 
-@media (max-width: 1024px) {
+@media (max-width: 600px) {
     body {
         background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
     }

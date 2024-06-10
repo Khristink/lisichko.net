@@ -227,7 +227,7 @@ main {
     grid-row: 3/7;
     height: auto;
     background-color: #60a0b0;
-    background-image: url("images/IMG_0350.png");
+    background-image: url("IMG_0350.png");
     background-repeat: no-repeat;
     background-size: 90%;
     border-bottom-left-radius: 25px;
@@ -246,13 +246,13 @@ main {
     grid-row: 3;
     grid-column: 6;
     padding-top: 20px;
-    height: min-content;
+    height: 80%
 }
 
 .magnet2 {
     grid-row: 10;
     grid-column: 10;
-    height: min-content;
+    height: 50%;
 }
 
 .main-note {
@@ -279,7 +279,7 @@ main {
     grid-column: 3/11;
 }
 .corner-grass2 {
-    grid-row: 9/13;
+    grid-row: 8/13;
     grid-column: 1/6;
     height: min-content;
     border-bottom-left-radius: 25px;

@@ -321,7 +321,6 @@ li.req {
     height: min-content;
 }
 
-
 @media (max-width: 500px) {
     body {
         background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
@@ -379,7 +378,7 @@ li.req {
         z-index: 1;
         grid-column: 1/6;
         grid-row: 9/11;
-	background-color: #E0CBACFF;
+        background-color: #E0CBACFF;
         display: grid;
         grid-template-rows: 2fr 1fr;
         grid-template-columns: 1fr repeat(4, 23%) 1fr;
@@ -422,15 +421,11 @@ li.req {
         grid-column: 5;
     }
     .photo {
-        grid-column: 2/6;
+        grid-column: 7/12;
         grid-row: 3/7;
-	transform: rotate(0deg);
+        transform: rotate(0deg);
     }
-    .magnet {
-        z-index: 1;
-        grid-row: 3;
-        grid-column: 5;
-    }
+
     .text-panel {
         z-index: 1;
         grid-column: 2/12;
@@ -445,7 +440,7 @@ li.req {
     }
     .corner-grass2 {
         grid-row: 10/13;
-	z-index: 0;
+        z-index: 0;
         max-height: 100%;
         object-fit: contain;
         overflow: hidden;
@@ -460,6 +455,14 @@ li.req {
     }
     .flower {
         grid-column: 4/6;
+    }
+    .magnet {
+        z-index: 1;
+        grid-row: 3;
+        grid-column: 7;
+    }
+    .magnet2 {
+        display: none;
     }
     .text_about {
         grid-column: 3/11;
@@ -477,6 +480,7 @@ li.req {
         max-height: 100%;
         object-fit: contain;
         overflow: hidden;
+
     }
     .corner-grass4 {
         display: none;
@@ -501,13 +505,16 @@ li.req {
     width: auto;
 }
     .grass {
-	z-index: 0;
-        grid-row: 7/13;
+        z-index: 0;
+        grid-row: 6/12;
         max-height: 100%;
         object-fit: contain;
         overflow: hidden;
     }
+
     .main-note {
-        grid-row: 3/8;
+        z-index: 1;
+        grid-row: 2/6;
+        grid-column: 2/7;
+
     }
-}

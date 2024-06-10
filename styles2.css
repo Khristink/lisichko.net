@@ -495,7 +495,7 @@ li.req {
         scrollbar-color: #508070 #60a0b0;
     }
     ul {
-        padding-inline-start: 0;
+        padding-left: 0;
     }
     .corner-grass3 {
         display: none;

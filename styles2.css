@@ -495,5 +495,6 @@ li.req {
     .grass {
         z-index: 0;
         grid-row: 6/12;
+	height: 100%;
     }
 }

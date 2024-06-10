@@ -256,7 +256,7 @@ main {
 }
 
 .main-note {
-    grid-column: 6/12;
+    grid-column: 7/12;
     grid-row: 3/7;
     text-align: center;
 }

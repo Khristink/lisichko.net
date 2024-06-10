@@ -1,8 +1,6 @@
 
 * {
     box-sizing: border-box;
-    flex-grow: 0;
-    flex-shrink: 0;
 }
 
 img {
@@ -152,8 +150,7 @@ main {
 .flower {
     grid-row: 9/13;
     grid-column: 3/5;
-    object-fit: contain;
-    overflow-y: auto;
+    object-fit: cover;
 }
 
 
@@ -225,6 +222,7 @@ main {
 }
 
 .photo {
+    z-index: 1;
     grid-column: 3/7;
     grid-row: 3/7;
     background-color: #60a0b0;
@@ -277,13 +275,13 @@ main {
 }
 
 .grass {
+    z-index: 0;
     grid-row: 4/13;
     grid-column: 1/7;
     height: 100%;
     width: fit-content;
     border-bottom-left-radius: 25px;
     object-fit: fill;
-    overflow-y: auto;
 }
 .text-panel {
     z-index: 1;

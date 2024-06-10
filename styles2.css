@@ -377,7 +377,7 @@ li.req {
         grid-row: 1/9;
     }
     .panel_btn {
-
+        z-index: 1;
         grid-column: 1/6;
         grid-row: 9/11;
 
@@ -493,4 +493,8 @@ li.req {
     height: 0.5rem;
     width: auto;
 }
+    .grass {
+        z-index: 0;
+        grid-row: 5/13;
+    }
 }

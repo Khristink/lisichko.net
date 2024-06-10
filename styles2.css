@@ -225,11 +225,11 @@ main {
     z-index: 1;
     grid-column: 3/7;
     grid-row: 3/7;
-    height: auto;
+    height: -webkit-fill-available;
     background-color: #60a0b0;
     background-image: url("IMG_0350.png");
     background-repeat: no-repeat;
-    background-size: 90%;
+    background-size: cover;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
@@ -246,13 +246,13 @@ main {
     grid-row: 3;
     grid-column: 6;
     padding-top: 20px;
-    height: 80%
+    height: 75%
 }
 
 .magnet2 {
     grid-row: 10;
     grid-column: 10;
-    height: 50%;
+    height: 60%;
 }
 
 .main-note {
@@ -266,7 +266,7 @@ main {
     grid-row: 7/13;
     grid-column: 1/9;
     border-bottom-left-radius: 25px;
-    height: min-content;
+    height: -webkit-fill-available;
 }
 .text-panel {
     z-index: 1;

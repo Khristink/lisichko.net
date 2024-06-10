@@ -36,14 +36,14 @@ span a {
 h1 {
     font-weight: bold;
     color: #508070;
-    font-size: 16pt;
+    font-size: small;
     text-align: center;
 }
 
 h2 {
     font-weight: bold;
     color: #508070;
-    font-size: 16pt;
+    font-size: small;
     text-align: center;
 }
 
@@ -196,27 +196,27 @@ main {
 }
 
 #pearl_1 {
-    background-image: url("IMG_0294.png");
+    background-image: url("images/IMG_0294.png");
     background-size: cover;
 }
 
 #pearl_2 {
-    background-image: url("IMG_0315.png");
+    background-image: url("images/IMG_0315.png");
     background-size: cover;
 }
 
 #pearl_3 {
-    background-image: url("IMG_0323.png");
+    background-image: url("images/IMG_0323.png");
     background-size: cover;
 }
 
 #pearl_4 {
-    background-image: url("IMG_0288.png");
+    background-image: url("images/IMG_0288.png");
     background-size: cover;
 }
 
 #pearl_5 {
-    background-image: url("IMG_0287.png");
+    background-image: url("images/IMG_0287.png");
     background-size: cover;
 }
 
@@ -226,7 +226,7 @@ main {
     grid-row: 3/7;
     height: 100%;
     background-color: #60a0b0;
-    background-image: url("IMG_0350.png");
+    background-image: url("images/IMG_0350.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 25px;
@@ -244,7 +244,6 @@ main {
     z-index: 1;
     grid-row: 3;
     grid-column: 6;
-    padding-top: 20px;
     height: auto;
 }
 
@@ -321,7 +320,7 @@ li.req {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
     body {
         background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
     }
@@ -459,7 +458,7 @@ li.req {
     .magnet {
         z-index: 1;
         grid-row: 3;
-        grid-column: 7;
+        grid-column: 10;
     }
     .magnet2 {
         display: none;
@@ -506,7 +505,7 @@ li.req {
 }
     .grass {
         z-index: 0;
-        grid-row: 9/13;
+        grid-row: 8 /13;
         grid-column: 1/6;
         max-height: 100%;
         object-fit: contain;
@@ -517,5 +516,12 @@ li.req {
         z-index: 1;
         grid-row: 3/6;
         grid-column: 2/7;
+        overflow: hidden;
+    }
+    .main-note h1 {
+        font-size: 2.5vh;
+    }
+    .main-note h2 {
+        font-size: 2vh;
     }
 }

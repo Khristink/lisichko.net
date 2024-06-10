@@ -434,7 +434,7 @@ li.req {
     .text-panel {
         z-index: 1;
         grid-column: 2/12;
-        grid-row: 3/11;
+        grid-row: 3/13;
         font-size: 0.8rem;
         display: flex;
         flex-direction: column;

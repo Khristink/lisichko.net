@@ -493,10 +493,10 @@ li.req {
     height: 0.5rem;
     width: auto;
 }
-    .grass {
-        z-index: 0;
+    .grass {z-index: 0;
         grid-row: 6/12;
-	height: 100%;
-	object-fit: cover;
+        max-height: 100%;
+        object-fit: contain;
+        overflow: hidden;
     }
 }

@@ -237,6 +237,7 @@ main {
     border-top-right-radius: 25px;;
     border-left: thick solid #d0c0a0;
     border-bottom: thick solid #d0c0a0;
+    transform: rotate(345deg);
 }
 
 
@@ -423,6 +424,7 @@ li.req {
     .photo {
         grid-column: 2/6;
         grid-row: 3/5;
+	transform: rotate(0deg);
     }
     .magnet {
         z-index: 1;

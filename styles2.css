@@ -285,7 +285,7 @@ main {
 .corner-grass2 {
     grid-row: 8/13;
     grid-column: 1/6;
-    height: min-content;
+    max-height: 100%
     border-bottom-left-radius: 25px;
 }
 

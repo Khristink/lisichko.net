@@ -1,72 +1,545 @@
-<!DOCTYPE html>
-<html lang="ru" xmlns="http://www.w3.org/1999/html">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>сайт клинического психолога Христины Кузьминой</title>
-    <link
-                rel="stylesheet"
-                type="text/css"
-                href="normolize.css"
-    />
-    <link
-                rel="stylesheet"
-                type="text/css"
-                href="styles2.css"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
-    <link nonce="" rel="icon" sizes="16x16" href="icon.png">
-    <link nonce="" rel="icon" sizes="32x32" href="icon.png">
-    <link nonce="" rel="icon" sizes="24x24" href="icon.png">
-    <link nonce="" rel="icon" sizes="192x192" href="icon.png">
 
-</head>
-<body>
-<div class="mob_wrapper">
-        <header class="header">
-        <div class="container">
-            <img src="IMG_0329.png" class="logo" alt="logo fox">
-            <span class="header_contacts">
-                <a href="https://t.me/khristina_kuzmina"><i class="fa-brands fa-telegram"></i></a>
-                <a href="https://wa.me/79933371240" ><i class="fa-brands fa-whatsapp"></i></a>
-                <a href="tel:+79933371240" class="phonenumb">+7 993 337 12 40</a>
-            </span>
-        </div>
-    </header>
-    <main class="main">
-                <div class="panel_btn">
-                    <a href="edu.html" id="pearl_1"   class="as-button btn1"></a>
-                    <h2 id="edu">Образование</h2>
-                    <a href="requests.html" id="pearl_2" class="as-button btn2"></a>
-                    <h2 id="req">Запросы</h2>
-                    <a href="sessions.html" id="pearl_3" class="as-button btn3"></a>
-                    <h2 id="cons">Консультации</h2>
-                    <a href="index.html" id="pearl_5" class="as-button btn4"></a>
-                    <h2 id="cont">НАЗАД</h2>
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    pointer-events: none;
+}
+img.logo {
+    height: 50px;
+}
+
+body {
+    background-color: #b0d0d0;
+    font-family: "LXGW WenKai TC", cursive, sans-serif;
+    font-weight: 400;
+}
+html, body {
+    height: 100%;
+}
+.mob_wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+span a {
+    font-size: 40px;
+    color: #104050;
+}
+
+h1 {
+    font-weight: bold;
+    color: #508070;
+    font-size: 4vh;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color: #508070;
+    font-size: 3vh;
+    text-align: center;
+}
+
+p {
+    padding-top: 1px;
+    color: #508070;
+    font-size: medium;
+}
+li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    color: #508070;
+    list-style-position: inside;
+}
+li a {
+    color: #508070;
+    font-size: 20px;
+}
+
+.lxgw-wenkai-tc-regular {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background: #60a0b0;
+    height: 60px;
+
+}
+
+main {
+    flex: 1;
+    overflow-y: auto;
+    display: grid;
+    grid-template-rows: 15px repeat(7, 1fr) 10px;
+    grid-template-columns: 30px 150px 30px repeat(7, 1fr) 70px 15px;
+}
+.panel_btn {
+    grid-column: 2/3;
+    grid-row: 2/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pad {
+    grid-column: 4/11;
+    grid-row: 2/9;
+    background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+    border-bottom: thick solid #d0c0a0;
+    border-left: thick solid #d0c0a0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: -8px 8px 4px #666054;
+    display: grid;
+    grid-template-columns: 5px repeat(10, 10fr) 10px;
+    grid-template-rows: 10px repeat(10, 10fr) 10px;
+}
+
+.pad_edu {
+    overflow-x: hidden;
+    scrollbar-width: thin;
+
+    scroll-padding-left: 2px;
+    scrollbar-color: #508070 transparent;
+    grid-column: 6/12;
+    grid-row: 2/12;
+    text-align: justify;
+}
+
+.slider {
+    grid-row: 2/9;
+    grid-column: 2/6;
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    overflow-y: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
+
+}
+
+.slide {
+    padding-bottom: 5px;
+    padding-top: 20px;
+    padding-left: 20px;
+    object-fit: contain;
+}
 
 
-                </div>
-                <div class="pad">
-                    <div class="text-panel">
-                        <h2>КОНТАКТЫ</h2><br>
-                    <ul>
-                        <li><a href="https://t.me/khristina_kuzmina"><i class="fa-brands fa-telegram"></i> Telegram</a></li>
-                        <li><a href="https://t.me/v_smysl"><i class="fa-brands fa-telegram"></i> Tg-канал: @v_smysl</a></li>
-                        <li><a href="https://wa.me/79933371240"><i class="fa-brands fa-whatsapp"></i> WhatsApp</a></li>
-                        <li><a href="tel:+79933371240"><i class="fa-sharp fa-solid fa-phone"></i> +7 993 337 12 40</a> </li>
-                        <li></li>
-                    </ul>
-                    </div>
-                    <img src="IMG_0358.png" class="corner-grass2" alt="рисунок растения">
-                </div>
-                <div class="pen">
-                    <img src="IMG_0310.png" class="img_pen" alt="изображение ручки"/>
-                </div>
+.flower {
+    grid-row: 9/13;
+    grid-column: 3/5;
+    max-height: 100%;
+    object-fit: contain;
+}
 
-    </main>
-    </div>
-  <script src="https://kit.fontawesome.com/38f67f78fe.js" crossorigin="anonymous"></script>
-</body>
-</html>
+
+.pen {
+    grid-column: 11/12;
+    grid-row: 2/9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img_pen {
+
+    width: 50%;
+    height: 90%;
+
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+.as-button {
+    width: 80px; height: 80px; /* Размеры кнопки */
+    border-radius: 50%; /* Радиус скругления */
+    background-color: #b0d0d0;
+    border: hidden;
+   }
+
+.as-button:hover {
+	animation: bounce 1s;
+}
+
+#pearl_1 {
+    background-image: url("IMG_0294.png");
+    background-size: cover;
+}
+
+#pearl_2 {
+    background-image: url("IMG_0315.png");
+    background-size: cover;
+}
+
+#pearl_3 {
+    background-image: url("IMG_0323.png");
+    background-size: cover;
+}
+
+#pearl_4 {
+    background-image: url("IMG_0288.png");
+    background-size: cover;
+}
+
+#pearl_5 {
+    background-image: url("IMG_0287.png");
+    background-size: cover;
+}
+
+.photo {
+    z-index: 1;
+    grid-column: 3/7;
+    grid-row: 3/7;
+    height: 100%;
+    background-color: #60a0b0;
+    background-image: url("IMG_0350.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;;
+    border-left: thick solid #d0c0a0;
+    border-bottom: thick solid #d0c0a0;
+    transform: rotate(345deg);
+}
+
+
+
+.magnet {
+    z-index: 1;
+    grid-row: 3;
+    grid-column: 6;
+    height: auto;
+}
+
+.magnet2 {
+    grid-row: 10;
+    grid-column: 10;
+    height: auto;
+}
+
+.main-note {
+    grid-column: 7/12;
+    grid-row: 3/7;
+    text-align: center;
+}
+
+.grass {
+    z-index: 0;
+    grid-row: 6/13;
+    grid-column: 1/9;
+    border-bottom-left-radius: 25px;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.text-panel {
+    z-index: 1;
+    grid-row: 3/11;
+    grid-column: 3/11;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
+}
+.text_about {
+    z-index: 1;
+    grid-row: 3/11;
+    grid-column: 3/11;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
+}
+.corner-grass2 {
+    grid-row: 8/13;
+    grid-column: 1/6;
+    max-height: 100%;
+    object-fit: contain;
+    border-bottom-left-radius: 25px;
+}
+
+.requests-panel {
+    z-index: 1;
+    grid-column: 2/13;
+    grid-row: 2/12;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
+}
+
+li.req {
+    padding-bottom: 5px;
+}
+
+.corner-grass3 {
+    z-index: 0;
+    grid-row: 9/13;
+    grid-column: 9/13;
+    height: min-content;
+    border-bottom-right-radius: 25%;
+}
+
+.pearl-list {
+    height: 10px;
+    width: auto;
+}
+
+.corner-grass4 {
+    grid-column: 10/12;
+    grid-row: 10/12;
+    height: min-content;
+}
+.corner-grass5 {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    height: min-content;
+}
+
+
+@media (max-width: 600px) {
+    body {
+        background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+    }
+    html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.mob_wrapper {
+    background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+    .pen {
+        display: none;
+    }
+    .container {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .header {
+        width: 100%;
+        height: 4rem;
+    }
+
+
+    .fox_logo {
+        height: 3rem;
+    }
+
+    .header a {
+        font-size: 3rem;
+
+    }
+    .phonenumb {
+        display: none;
+    }
+     main {
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: repeat(10, 10%);
+    }
+
+    .pad {
+        background-image: none;
+        border: none;
+        box-shadow: none;
+        grid-column: 1/6;
+        grid-row: 1/9;
+    }
+    .panel_btn {
+        z-index: 1;
+        grid-column: 1/6;
+        grid-row: 9/11;
+        background-color: #E0CBACFF;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr repeat(4, 23%) 1fr;
+        justify-items: center;
+
+    }
+    .panel_btn h2 {
+        font-size: 0.8em;
+    }
+    .btn1 {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .btn2 {
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .btn3 {
+        grid-row: 1;
+        grid-column: 4;
+    }
+    .btn4 {
+        grid-row: 1;
+        grid-column: 5;
+    }
+    #edu {
+        grid-column: 2;
+        grid-row: 2;
+    }
+    #req {
+        grid-row: 2;
+        grid-column: 3;
+    }
+    #cons {
+        grid-column: 4;
+        grid-row: 2;
+    }
+    #cont {
+        grid-row: 2;
+        grid-column: 5;
+    }
+    .photo {
+        grid-column: 7/12;
+        grid-row: 3/7;
+        transform: rotate(0deg);
+    }
+
+    .text-panel {
+        z-index: 1;
+        grid-column: 2/12;
+        grid-row: 3/13;
+        font-size: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .text-panel ul {
+        padding: 0;
+    }
+    .corner-grass2 {
+        grid-row: 10/13;
+        z-index: 0;
+        max-height: 100%;
+        object-fit: contain;
+        overflow: hidden;
+    }
+    .pad_edu {
+        grid-column: 3/11;
+        grid-row: 2/7;
+    }
+    .slider {
+        grid-row: 7/13;
+        grid-column: 7/11;
+    }
+    .flower {
+        grid-column: 4/6;
+    }
+    .magnet {
+        z-index: 1;
+        grid-row: 3;
+        grid-column: 10;
+    }
+    .magnet2 {
+        display: none;
+    }
+    .text_about {
+        grid-column: 3/11;
+        grid-row: 2/11;
+        font-size: 1rem;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: #508070 #60a0b0;
+    }
+    .corner-grass5 {
+        z-index: 1;
+        grid-column: 9/11;
+        grid-row: 11/12;
+        max-height: 100%;
+        object-fit: contain;
+        overflow: hidden;
+
+    }
+    .corner-grass4 {
+        display: none;
+    }
+    .requests-panel {
+        grid-column: 3/11;
+        grid-row: 2/12;
+        font-size: 1rem;
+        overflow: scroll;
+        overflow-x: hidden;
+        scrollbar-width: thin;
+        scrollbar-color: #508070 #60a0b0;
+    }
+    ul {
+        padding-left: 0;
+    }
+    .corner-grass3 {
+        display: none;
+    }
+    .pearl-list {
+    height: 0.5rem;
+    width: auto;
+}
+    .grass {
+        z-index: 0;
+        grid-row: 8 /13;
+        grid-column: 1/6;
+        max-height: 100%;
+        object-fit: contain;
+        overflow: hidden;
+    }
+
+    .main-note {
+        z-index: 1;
+        grid-row: 3/6;
+        grid-column: 2/7;
+        overflow: hidden;
+    }
+    .main-note h1 {
+        font-size: 2.5vh;
+    }
+    .main-note h2 {
+        font-size: 2vh;
+    }
+}

@@ -597,7 +597,7 @@ li.req {
 
     .main-note {
         z-index: 1;
-        grid-row: 3/6;
+        grid-row: 3/8;
         grid-column: 2/7;
         overflow: hidden;
     }

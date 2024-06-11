@@ -275,7 +275,7 @@ main {
 
 }
 .img-box {
-    grid-row: 6/13;
+    grid-row: 9/13;
     grid-column: 1/9;
     display: flex;
     justify-content: left;

@@ -289,6 +289,7 @@ main {
     overflow: hidden;
 }
 
+
 .text-panel {
     z-index: 1;
     grid-row: 3/11;
@@ -300,8 +301,12 @@ main {
     overflow-x: hidden;
     scrollbar-width: thin;
     scrollbar-color: #508070 transparent;
-}
-.text_about {
+    background-image: linear-gradient(to top, rgba(224, 203, 172, 0.5) 0%, rgba(255, 240, 208, 0.5) 100%);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}.text_about {
     z-index: 1;
     grid-row: 3/11;
     grid-column: 3/11;

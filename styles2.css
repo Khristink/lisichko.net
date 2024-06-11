@@ -567,4 +567,8 @@ li.req {
     .main-note h2 {
         font-size: 2vh;
     }
+    #pearl_1, #pearl_2, #pearl_3, #pearl_4, #pearl_5 {
+        object-fit: contain;
+        max-width: 80%;
+    }
 }

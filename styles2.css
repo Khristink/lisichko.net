@@ -198,27 +198,27 @@ main {
 }
 
 #pearl_1 {
-    background-image: url("images/IMG_0294.png");
+    background-image: url("IMG_0294.png");
     background-size: cover;
 }
 
 #pearl_2 {
-    background-image: url("images/IMG_0315.png");
+    background-image: url("IMG_0315.png");
     background-size: cover;
 }
 
 #pearl_3 {
-    background-image: url("images/IMG_0323.png");
+    background-image: url("IMG_0323.png");
     background-size: cover;
 }
 
 #pearl_4 {
-    background-image: url("images/IMG_0288.png");
+    background-image: url("IMG_0288.png");
     background-size: cover;
 }
 
 #pearl_5 {
-    background-image: url("images/IMG_0287.png");
+    background-image: url("IMG_0287.png");
     background-size: cover;
 }
 
@@ -228,7 +228,7 @@ main {
     grid-row: 3/7;
     height: 100%;
     background-color: #60a0b0;
-    background-image: url("images/IMG_0350.png");
+    background-image: url("IMG_0350.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 25px;
@@ -246,13 +246,15 @@ main {
     z-index: 1;
     grid-row: 3;
     grid-column: 6;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
 .magnet2 {
     grid-row: 10;
     grid-column: 10;
-    height: auto;
+    height: 100%;
+    object-fit: contain;
 }
 
 .main-note {
@@ -268,6 +270,7 @@ main {
     border-bottom-left-radius: 25px;
     max-height: 100%;
     object-fit: contain;
+    overflow: hidden;
 }
 
 .text-panel {
@@ -297,6 +300,7 @@ main {
     max-height: 100%;
     object-fit: contain;
     border-bottom-left-radius: 25px;
+    overflow: hidden;
 }
 
 .requests-panel {

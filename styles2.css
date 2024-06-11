@@ -187,9 +187,11 @@ main {
 }
 
 .as-button {
-    width: 80px; height: 80px; /* Размеры кнопки */
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
     border-radius: 50%; /* Радиус скругления */
-    background-color: #b0d0d0;
+    background-color: transparent;
     border: hidden;
    }
 
@@ -199,27 +201,27 @@ main {
 
 #pearl_1 {
     background-image: url("IMG_0294.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 #pearl_2 {
     background-image: url("IMG_0315.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 #pearl_3 {
     background-image: url("IMG_0323.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 #pearl_4 {
     background-image: url("IMG_0288.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 #pearl_5 {
     background-image: url("IMG_0287.png");
-    background-size: cover;
+    background-size: contain;
 }
 
 .photo {
@@ -289,7 +291,6 @@ main {
     overflow: hidden;
 }
 
-
 .text-panel {
     z-index: 1;
     grid-row: 3/11;
@@ -306,7 +307,8 @@ main {
     border-bottom-right-radius: 25px;
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
-}.text_about {
+}
+.text_about {
     z-index: 1;
     grid-row: 3/11;
     grid-column: 3/11;
@@ -422,7 +424,7 @@ li.req {
         grid-row: 9/11;
         background-color: #E0CBACFF;
         display: grid;
-        grid-template-rows: 2fr 1fr;
+        grid-template-rows: 1fr 1fr;
         grid-template-columns: 1fr repeat(4, 23%) 1fr;
         justify-items: center;
 
@@ -430,6 +432,7 @@ li.req {
     .panel_btn h2 {
         font-size: 0.8em;
     }
+
     .btn1 {
         grid-column: 2;
         grid-row: 1;
@@ -498,7 +501,7 @@ li.req {
     .flower {
         grid-column: 4/6;
     }
-    .magnet {
+    .magnet-box {
         z-index: 1;
         grid-row: 3;
         grid-column: 10;

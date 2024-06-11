@@ -198,27 +198,27 @@ main {
 }
 
 #pearl_1 {
-    background-image: url("IMG_0294.png");
+    background-image: url("images/IMG_0294.png");
     background-size: cover;
 }
 
 #pearl_2 {
-    background-image: url("IMG_0315.png");
+    background-image: url("images/IMG_0315.png");
     background-size: cover;
 }
 
 #pearl_3 {
-    background-image: url("IMG_0323.png");
+    background-image: url("images/IMG_0323.png");
     background-size: cover;
 }
 
 #pearl_4 {
-    background-image: url("IMG_0288.png");
+    background-image: url("images/IMG_0288.png");
     background-size: cover;
 }
 
 #pearl_5 {
-    background-image: url("IMG_0287.png");
+    background-image: url("images/IMG_0287.png");
     background-size: cover;
 }
 
@@ -228,7 +228,7 @@ main {
     grid-row: 3/7;
     height: 100%;
     background-color: #60a0b0;
-    background-image: url("IMG_0350.png");
+    background-image: url("images/IMG_0350.png");
     background-repeat: no-repeat;
     background-size: cover;
     border-bottom-left-radius: 25px;
@@ -315,9 +315,10 @@ li.req {
 
 .corner-grass3 {
     z-index: 0;
-    grid-row: 9/13;
-    grid-column: 9/13;
-    height: min-content;
+    grid-row: 6/13;
+    grid-column: 10/13;
+    max-height: 100%;
+    object-fit: contain;
     border-bottom-right-radius: 25%;
 }
 

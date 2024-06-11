@@ -187,11 +187,9 @@ main {
 }
 
 .as-button {
-    height: 100%;
-    width: 100%;
-    background-repeat: no-repeat;
+    width: 80px; height: 80px; /* Размеры кнопки */
     border-radius: 50%; /* Радиус скругления */
-    background-color: transparent;
+    background-color: #b0d0d0;
     border: hidden;
    }
 
@@ -201,28 +199,29 @@ main {
 
 #pearl_1 {
     background-image: url("IMG_0294.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #pearl_2 {
     background-image: url("IMG_0315.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #pearl_3 {
     background-image: url("IMG_0323.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #pearl_4 {
     background-image: url("IMG_0288.png");
-    background-size: contain;
+    background-size: cover;
 }
 
 #pearl_5 {
     background-image: url("IMG_0287.png");
-    background-size: contain;
+    background-size: cover;
 }
+
 
 .photo {
     z-index: 1;
@@ -432,6 +431,44 @@ li.req {
     .panel_btn h2 {
         font-size: 0.8em;
     }
+    .as-button {
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%; /* Радиус скругления */
+    background-color: transparent;
+    border: hidden;
+   }
+
+.as-button:hover {
+	animation: bounce 1s;
+}
+
+#pearl_1 {
+    background-image: url("images/IMG_0294.png");
+    background-size: contain;
+}
+
+#pearl_2 {
+    background-image: url("images/IMG_0315.png");
+    background-size: contain;
+}
+
+#pearl_3 {
+    background-image: url("images/IMG_0323.png");
+    background-size: contain;
+}
+
+#pearl_4 {
+    background-image: url("images/IMG_0288.png");
+    background-size: contain;
+}
+
+#pearl_5 {
+    background-image: url("images/IMG_0287.png");
+    background-size: contain;
+}
+
 
     .btn1 {
         grid-column: 2;

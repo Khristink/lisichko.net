@@ -149,7 +149,8 @@ main {
 .flower {
     grid-row: 9/13;
     grid-column: 3/5;
-    object-fit: cover;
+    max-height: 100%;
+    object-fit: contain;
 }
 
 
@@ -274,11 +275,19 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
 }
 .text_about {
     z-index: 1;
     grid-row: 3/11;
     grid-column: 3/11;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
 }
 .corner-grass2 {
     grid-row: 8/13;
@@ -288,8 +297,13 @@ main {
 }
 
 .requests-panel {
+    z-index: 1;
     grid-column: 2/13;
     grid-row: 2/12;
+    overflow: scroll;
+    overflow-x: hidden;
+    scrollbar-width: thin;
+    scrollbar-color: #508070 transparent;
 }
 
 li.req {
@@ -297,6 +311,7 @@ li.req {
 }
 
 .corner-grass3 {
+    z-index: 0;
     grid-row: 9/13;
     grid-column: 9/13;
     height: min-content;

@@ -268,7 +268,7 @@ main {
 }
 
 .main-note {
-    grid-column: 8/12;
+    grid-column: 7/12;
     grid-row: 3/7;
     text-align: center;
 }

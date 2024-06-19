@@ -44,7 +44,7 @@ h1 {
 h2 {
     font-weight: bold;
     color: #508070;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-align: center;
 }
 
@@ -98,6 +98,10 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.panel-btn h2 {
+	font-size: 1em;
 }
 
 .pad {

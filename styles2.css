@@ -98,10 +98,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-}
-
-.panel-btn h2 {
-	font-size: 0.8em;
+    font-size: 0.8em;
 }
 
 .pad {

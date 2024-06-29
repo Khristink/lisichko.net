@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шкала депрессии Аарона Бека</title>
+    <meta name="description" content="Пройдите шкалу депрессии Бека, чтобы оценить уровень депрессии и узнать, насколько сильно вы испытываете различные симптомы депрессии.">
+    <meta name="keywords" content="шкала депрессии Бека, уровень депрессии, симптомы депрессии, психологический тест, депрессия, психология, оценка депрессии">
+    <link
+                rel="stylesheet"
+                type="text/css"
+                href="normolize.css"
+    />
+    <link
+                rel="stylesheet"
+                type="text/css"
+                href="stylestests.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC&display=swap" rel="stylesheet">
+    <link nonce="" rel="icon" sizes="16x16" href="images/icon.png">
+    <link nonce="" rel="icon" sizes="32x32" href="images/icon.png">
+    <link nonce="" rel="icon" sizes="24x24" href="images/icon.png">
+    <link nonce="" rel="icon" sizes="192x192" href="images/icon.png">
+    <link nonce="" rel="apple-touch-icon" sizes="192x192" href="images/icon192.png">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:wght@400;700&display=swap');
+</style>
+</head>
+<body>
+<div class="mob_wrapper">
+        <header class="header">
+        <div class="container">
+            <img src="images/IMG_0329.png" class="logo" alt="logo fox">
+            <span class="header_contacts">
+                <a href="https://t.me/khristina_kuzmina" title="ссылка на telegram"><i class="fa-brands fa-telegram"></i></a>
+                <a href="https://wa.me/79933371240" title="ссылка на whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="tel:+79933371240" class="phonenumb" title="открыть номер в приложении для звонков">+7 993 337 12 40</a>
+            </span>
+        </div>
+    </header>
+    <main class="main">
+        <div class="pad">
+            <h1>Шкала Депрессии Бека</h1><br>
+            <form id="bdiForm">
+                <h2 class="instruction">Инструкция: «В этом опроснике содержатся группы утверждений. Внимательно прочитайте каждую группу утверждений. Затем определите в каждой группе одно утверждение, которое лучше всего соответствует тому, как Вы себя чувствовали НА ЭТОЙ НЕДЕЛЕ И СЕГОДНЯ. Поставьте галочку около выбранного утверждения. Если несколько утверждений из одной группы кажутся Вам одинаково хорошо подходящими, то поставьте галочки около каждого из них. Прежде, чем сделать свой выбор, убедитесь, что Вы прочли Все утверждения в каждой группе»
+                </h2><br>
+                    <div class="question">
+                    <h2>1.</h2>
+                    <label><input type="radio" name="1" value="0" required>
+                    Я не чувствую себя расстроенным, печальным.
+                    </label><br>
+                    <label><input type="radio" name="1" value="1">
+                    Я расстроен.
+                    </label><br>
+                    <label><input type="radio" name="1" value="2">
+                    Я все время расстроен и не могу от этого отключиться.
+                    </label><br>
+                    <label><input type="radio" name="1" value="3">
+                    Я настолько расстроен и несчастлив, что не могу это выдержать.
+                    </label><br>
+                </div>
+                <div class="question">
+                    <h2>2.</h2>
+                    <label><input type="radio" name="2" value="0" required>
+                    Я не тревожусь о своем будущем.
+                    </label><br>
+                    <label><input type="radio" name="2" value="1">
+                    Я чувствую, что озадачен будушим.
+                    </label><br>
+                    <label><input type="radio" name="2" value="2">
+                    Я чувствую, что меня ничего не ждет в будущем.
+                    </label><br>
+                    <label><input type="radio" name="2" value="3">
+                    Мое будущее безнадежно, и ничто не может измениться к лучшему.
+                    </label><br>
+                </div>
+                <div class="question">
+                    <h2>3.</h2>
+                    <label><input type="radio" name="3" value="0" required>
+                        Я не чувствую себя неудачником.
+                    </label><br>
+                    <label><input type="radio" name="3" value="1">
+                        Я чувствую, что терпел больше неудач, чем другие люди.
+                    </label><br>
+                    <label><input type="radio" name="3" value="2">
+                        Когда я оглядываюсь на свою жизнь, я вижу в ней много неудач.
+                    </label><br>
+                    <label><input type="radio" name="3" value="3">
+                        Я чувствую, что как личность я - полный неудачник.
+                    </label><br>
+                </div>
+              <div class="question">
+            <h2>4.</h2>
+            <label>
+                <input type="radio" name="4" value="0" required>
+                Я получаю столько же удовольствия от жизни, как и раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="4" value="1">
+                Я не получаю столько же удовольствия от жизни, как раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="4" value="2">
+                Я уже не получаю настоящего удовольствия ни от чего.
+            </label><br>
+            <label>
+                <input type="radio" name="4" value="3">
+                Я полностью не удовлетворен жизнью и мне все надоело.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>5.</h2>
+            <label>
+                <input type="radio" name="5" value="0" required>
+                Я не чувствую себя в чем-то виноватым.
+            </label><br>
+            <label>
+                <input type="radio" name="5" value="1">
+                Я чувствую себя виноватым за многое, что сделал или должен был сделать.
+            </label><br>
+            <label>
+                <input type="radio" name="5" value="2">
+                Я чувствую себя виноватым большую часть времени.
+            </label><br>
+            <label>
+                <input type="radio" name="5" value="3">
+                Я чувствую себя виноватым все время.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>6.</h2>
+            <label>
+                <input type="radio" name="6" value="0" required>
+                Я не чувствую, что могу быть наказанным за что-либо.
+            </label><br>
+            <label>
+                <input type="radio" name="6" value="1">
+                Я чувствую, что могу быть наказанным.
+            </label><br>
+            <label>
+                <input type="radio" name="6" value="2">
+                Я ожидаю, что могу быть наказанным.
+            </label><br>
+            <label>
+                <input type="radio" name="6" value="3">
+                Я чувствую себя уже наказанным.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>7.</h2>
+            <label>
+                <input type="radio" name="7" value="0" required>
+                Я не разочаровался в себе.
+            </label><br>
+            <label>
+                <input type="radio" name="7" value="1">
+                Я разочарован в себе.
+            </label><br>
+            <label>
+                <input type="radio" name="7" value="2">
+                Я себе противен.
+            </label><br>
+            <label>
+                <input type="radio" name="7" value="3">
+                Я себя ненавижу.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>8.</h2>
+            <label>
+                <input type="radio" name="8" value="0" required>
+                Я не чувствую, что я хуже других.
+            </label><br>
+            <label>
+                <input type="radio" name="8" value="1">
+                Я самокритичен и испытываю слабость и ошибки.
+            </label><br>
+            <label>
+                <input type="radio" name="8" value="2">
+                Я все время виню себя за свои ошибки.
+            </label><br>
+            <label>
+                <input type="radio" name="8" value="3">
+                Я виню себя за все плохое, что происходит.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>9.</h2>
+            <label>
+                <input type="radio" name="9" value="0" required>
+                У меня нет никаких мыслей о самоубийстве.
+            </label><br>
+            <label>
+                <input type="radio" name="9" value="1">
+                У меня есть мысли о самоубийстве, но я не буду их осуществлять.
+            </label><br>
+            <label>
+                <input type="radio" name="9" value="2">
+                Я хотел бы покончить с собой.
+            </label><br>
+            <label>
+                <input type="radio" name="9" value="3">
+                Я бы покончил с собой, если бы представился случай.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>10.</h2>
+            <label>
+                <input type="radio" name="10" value="0" required>
+                Я плачу не больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="1">
+                Я плачу больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="2">
+                Теперь я плачу все время.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="3">
+                Раньше я мог плакать, а теперь не могу, даже если хочу.
+            </label><br>
+        </div>
+                <div class="question">
+            <h2>10.</h2>
+            <label>
+                <input type="radio" name="10" value="0" required>
+                Я плачу не больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="1">
+                Я плачу больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="2">
+                Теперь я плачу все время.
+            </label><br>
+            <label>
+                <input type="radio" name="10" value="3">
+                Раньше я мог плакать, а теперь не могу, даже если хочу.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>11.</h2>
+            <label>
+                <input type="radio" name="11" value="0" required>
+                Сейчас я не более раздражителен, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="11" value="1">
+                Я более раздражителен, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="11" value="2">
+                Я гораздо более раздражителен, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="11" value="3">
+                Я постоянно раздражен.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>12.</h2>
+            <label>
+                <input type="radio" name="12" value="0" required>
+                Я не утратил интереса к другим людям.
+            </label><br>
+            <label>
+                <input type="radio" name="12" value="1">
+                Я меньше интересуюсь другими людьми, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="12" value="2">
+                Я почти утратил интерес к другим людям.
+            </label><br>
+            <label>
+                <input type="radio" name="12" value="3">
+                Я полностью утратил интерес к другим людям.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>13.</h2>
+            <label>
+                <input type="radio" name="13" value="0" required>
+                Я принимаю решения так же, как всегда.
+            </label><br>
+            <label>
+                <input type="radio" name="13" value="1">
+                Я откладываю принятие решения чаще, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="13" value="2">
+                Мне труднее принимать решения, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="13" value="3">
+                Я больше не могу принимать решения.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>14.</h2>
+            <label>
+                <input type="radio" name="14" value="0" required>
+                Я не чувствую, что выгляжу хуже, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="14" value="1">
+                Меня тревожит, что я выгляжу старым или непривлекательным.
+            </label><br>
+            <label>
+                <input type="radio" name="14" value="2">
+                Я чувствую, что в моей внешности произошли существенные изменения, делающие меня непривлекательным.
+            </label><br>
+            <label>
+                <input type="radio" name="14" value="3">
+                Я верю, что выгляжу уродливо.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>15.</h2>
+            <label>
+                <input type="radio" name="15" value="0" required>
+                Я могу работать так же хорошо, как и раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="15" value="1">
+                Мне необходимо приложить дополнительные усилия, чтобы начать делать что-то.
+            </label><br>
+            <label>
+                <input type="radio" name="15" value="2">
+                Я с трудом заставляю себя делать что-либо.
+            </label><br>
+            <label>
+                <input type="radio" name="15" value="3">
+                Я совсем не могу выполнять никакую работу.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>16.</h2>
+            <label>
+                <input type="radio" name="16" value="0" required>
+                Я сплю так же хорошо, как и раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="16" value="1">
+                Сейчас я сплю хуже, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="16" value="2">
+                Я просыпаюсь на 1-2 часа раньше и мне трудно снова заснуть.
+            </label><br>
+            <label>
+                <input type="radio" name="16" value="3">
+                Я просыпаюсь на несколько часов раньше обычного и больше не могу заснуть.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>17.</h2>
+            <label>
+                <input type="radio" name="17" value="0" required>
+                Я не устаю больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="17" value="1">
+                Теперь я устаю быстрее, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="17" value="2">
+                Я устаю от любой деятельности.
+            </label><br>
+            <label>
+                <input type="radio" name="17" value="3">
+                Я слишком устал, чтобы что-либо делать.
+            </label><br>
+        </div>
+
+        <div class="question">
+            <h2>18.</h2>
+            <label>
+                <input type="radio" name="18" value="0" required>
+                Мой аппетит не хуже, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="18" value="1">
+                Мой аппетит стал хуже, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="18" value="2">
+                Мой аппетит стал намного хуже.
+            </label><br>
+            <label>
+                <input type="radio" name="18" value="3">
+                У меня вообще нет аппетита.
+            </label><br>
+        </div>
+
+                <div class="question">
+                    <h2>19.</h2>
+                    <label>
+                        <input type="radio" name="19" value="0" required>
+                        В последнее время я не похудел или потерял незначительный вес.
+                    </label><br>
+                    <label>
+                        <input type="radio" name="19" value="1">
+                        Я потерял более 2 кг.
+                    </label><br>
+                    <label>
+                        <input type="radio" name="19" value="2">
+                        Я потерял более 5 кг.
+                    </label><br>
+                    <label>
+                        <input type="radio" name="19" value="3">
+                        Я потерял более 7 кг.
+                    </label><br>
+                </div>
+                <div class="question_sub">
+                    <h2>Намеренно ли вы стараетесь похудеть?</h2>
+                    <label>
+                        <input type="radio" name="19_sub" value="yes">
+                        Да
+                    </label><br>
+                    <label>
+                        <input type="radio" name="19_sub" value="no">
+                        Нет
+                    </label><br>
+                </div>
+
+        <div class="question">
+            <h2>20.</h2>
+            <label>
+                <input type="radio" name="20" value="0" required>
+                Я беспокоюсь о своем здоровье не больше, чем обычно.
+            </label><br>
+            <label>
+                <input type="radio" name="20" value="1">
+                Меня беспокоят физические проблемы, такие как боль, расстройство желудка, запор и т.д.
+            </label><br>
+            <label>
+                <input type="radio" name="20" value="2">
+                Я очень обеспокоен физическими проблемами и мне трудно думать о чем-либо другом.
+            </label><br>
+            <label>
+                <input type="radio" name="20" value="3">
+                Я настолько обеспокоен физическими проблемами, что больше ни о чем не могу думать.
+            </label><br>
+        </div>
+                <div class="question">
+            <h2>21.</h2>
+            <label>
+                <input type="radio" name="21" value="0" required>
+                Я не замечал изменений в моем интересе к сексу.
+            </label><br>
+            <label>
+                <input type="radio" name="21" value="1">
+                Я меньше интересуюсь сексом, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="21" value="2">
+                Сейчас я значительно меньше интересуюсь сексом, чем раньше.
+            </label><br>
+            <label>
+                <input type="radio" name="21" value="3">
+                Я полностью утратил интерес к сексу.
+            </label><br>
+        </div>
+                <div class="button_area">
+
+                        <h2>Получить результат</h2>
+                        <button type="button" onclick="showResult()" class="round-button" aria-label="Получить результат"></button>
+                </div>
+            </form>
+            <div id="resultBlock">
+                <h1>Результат</h1>
+                <h2>ВНИМАНИЕ: Этот тест является инструментом для оценки своего состояния и предназначен для выявления симптомов депрессии. Результаты теста не являются диагнозом. Для получения точной оценки вашего состояния и назначения лечения необходимо обратиться к квалифицированному специалисту.</h2>
+                <b><p id="resultText"></p></b>
+                <b><p id="resultAdvice"></p></b>
+            </div>
+        </div>
+    </main>
+    </main>
+    <div class="footer-content">
+        <p><a href="https://lisichko.net" target="_blank">LISICHKO.NET</a> - сайт клинического психолога Кузьминой Христины.</p>
+    </div>
+    </div>
+  <script>
+      function showResult() {
+          const form = document.getElementById('bdiForm');
+          const resultBlock = document.getElementById('resultBlock');
+          const resultText = document.getElementById('resultText');
+          const resultAdvice = document.getElementById('resultAdvice');
+
+          let totalScore = 0;
+          const inputs = form.querySelectorAll('input[type="radio"]:checked');
+
+          inputs.forEach((input) => {
+              if (input.name !== '19_sub') {
+                  totalScore += parseInt(input.value);
+              }
+          });
+
+          resultText.textContent = `Оценка вашего состояния по шкале депрессии Бека: ${totalScore}`;
+
+          let adviceText = '';
+          if (totalScore <= 9) {
+              adviceText = 'Ваш результат по шкале депрессии Бека показывает, что у вас минимальные признаки депрессии. Это означает, что у вас вряд ли есть значительные симптомы депрессии. Тем не менее, если вы чувствуете, что ваше эмоциональное состояние ухудшается, не стесняйтесь обратиться за консультацией к специалисту.';
+          } else if (totalScore <= 18) {
+              adviceText = 'Ваш результат по шкале депрессии Бека указывает на наличие легкой депрессии. Возможно, вы испытываете некоторые симптомы, которые могут повлиять на вашу повседневную жизнь. Рекомендуется проконсультироваться с психологом или терапевтом, чтобы обсудить ваше состояние и получить необходимую поддержку.';
+          } else if (totalScore <= 29) {
+              adviceText = 'Ваш результат по шкале депрессии Бека указывает на наличие умеренной депрессии. Это означает, что ваши симптомы могут существенно влиять на вашу жизнь. Настоятельно рекомендуется обратиться к квалифицированному специалисту, чтобы обсудить варианты лечения и поддержки.';
+          } else {
+              adviceText = 'Ваш результат по шкале депрессии Бека указывает на наличие тяжелой депрессии. Это серьезное состояние, требующее незамедлительного внимания. Пожалуйста, обратитесь к психиатру и психологу как можно скорее для получения профессиональной помощи.';
+          }
+
+          resultAdvice.textContent = adviceText;
+
+          form.style.display = 'none';
+          resultBlock.style.display = 'block';
+      }
+  </script>
+  <script src="https://kit.fontawesome.com/38f67f78fe.js" crossorigin="anonymous"></script>
+</body>
+</html>

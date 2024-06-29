@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+img.logo {
+    height: 50px;
+}
+
+body {
+    background-color: #b0d0d0;
+    font-family: "LXGW WenKai TC", cursive, sans-serif;
+    font-weight: 400;
+}
+.mob_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+
+}
+span a {
+    font-size: 40px;
+    color: #104050;
+}
+
+h1 {
+    font-weight: bold;
+    color: #508070;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color: #508070;
+    font-size: 1rem;
+    text-align: center;
+}
+
+form h2 {
+    text-align: left;
+}
+
+.instruction {
+    text-align: center;
+}
+
+p {
+    padding-top: 1px;
+    color: #508070;
+    font-size: medium;
+}
+
+label {
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 20px;
+    color: #508070;
+    list-style-position: inside;
+}
+.lxgw-wenkai-tc-regular {
+  font-family: "LXGW WenKai TC", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+    padding-top: 5px;
+    padding-left: 30px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background: #60a0b0;
+    height: 60px;
+}
+
+.pad {
+    width: 95vw;
+    padding: 60px;
+    margin: 30px auto;
+    background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
+    border-bottom: thick solid #d0c0a0;
+    border-left: thick solid #d0c0a0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    box-shadow: -8px 8px 4px #666054;
+}
+
+#resultBlock {
+    display: none;
+}
+
+.round-button {
+    height: 100px;
+    width: 98px;
+    border-radius: 50%;
+    border: none;
+    background-image: url("images/IMG_0323.png");
+    background-size: contain;
+    margin: 10px;
+}
+
+.round-button:hover {
+    filter: brightness(0.7);
+}
+
+.button_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.question_sub {
+    margin-left: 40px;
+}
+
+.footer-content {
+    text-align: center;
+    font-size: 2em;
+    color: #104050;
+    margin-bottom: 30px;
+}
+
+.footer-content a {
+    background-color: #60a0b0;
+    color: #104050;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 10px;
+    font-weight: bold;
+}

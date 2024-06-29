@@ -99,6 +99,7 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-buttom: 20px;
 }
 .panel_btn h2 {
     font-size: 0.8rem;
@@ -108,7 +109,7 @@ main {
 .pad {
     grid-column: 4/11;
     grid-row: 2/9;
-    margin-button: 20px;
+    margin-buttom: 20px;
     background-image: linear-gradient(to top, #e0cbac 0%, #fff0d0 100%);
     border-bottom: thick solid #d0c0a0;
     border-left: thick solid #d0c0a0;

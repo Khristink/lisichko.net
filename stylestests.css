@@ -39,6 +39,11 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #508070;
+    font-size: 1rem;
+}
+
 form h2 {
     text-align: left;
 }
@@ -48,13 +53,16 @@ form h2 {
 }
 
 p {
+    font-weight: bold;
     padding-top: 1px;
     color: #508070;
     font-size: medium;
 }
 
 label {
-    padding: 0px;
+    padding: 0;
+    color: #508070;
+
 }
 
 li {
@@ -68,7 +76,10 @@ li {
   font-weight: 400;
   font-style: normal;
 }
+ #lsaform .question {
+     margin-bottom: 30px;
 
+}
 .container {
     padding-top: 5px;
     padding-left: 30px;
@@ -143,7 +154,15 @@ li {
     padding: 10px;
     font-weight: bold;
 }
-
+.answers {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(215, 199, 164, 0.55);
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
 
 @media (max-width: 600px) {
     body {
@@ -200,5 +219,8 @@ li {
     .footer-content p {
         color: #104050;
     }
-
+    .answers {
+        display: flex;
+        flex-direction: column;
+    }
 }

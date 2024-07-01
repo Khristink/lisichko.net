@@ -47,7 +47,9 @@ h3 {
 form h2 {
     text-align: left;
 }
-
+form label {
+    color: #508070;
+}
 .instruction {
     text-align: center;
 }

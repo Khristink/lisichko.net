@@ -170,6 +170,8 @@ main {
     background: rgba(80, 128, 112, 0.2); /* Фон дорожки */
 }
 .slider img {
+    width: 100%; 
+    height: auto;
     padding-bottom: 5px;
     padding-top: 20px;
     padding-left: 20px;

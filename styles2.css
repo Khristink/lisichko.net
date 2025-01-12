@@ -123,27 +123,35 @@ main {
     grid-template-rows: 10px repeat(10, 10fr) 10px;
 }
 
+@keyframes hintScrollY {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-20px);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+    75% {
+        transform: translateY(20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+
 .pad_edu {
     overflow-x: hidden;
+    overflow-y: auto;
     scrollbar-width: thin;
+    animation: hintScrollY 2s ease-in-out 2;
     scroll-padding-left: 2px;
-    scrollbar-color: rgba(80, 128, 112, 0.5) rgba(80, 128, 112, 0.2);
+    scrollbar-color: #508070 transparent;
     grid-column: 6/12;
     grid-row: 2/12;
-    text-align: left;
-}
-
-.pad_edu::-webkit-scrollbar {
-    width: 8px; /* Ширина вертикального скроллбара */
-}
-
-.pad_edu::-webkit-scrollbar-thumb {
-    background: #508070; /* Цвет ползунка */
-    border-radius: 4px; /* Скругленные края */
-}
-
-.pad_edu::-webkit-scrollbar-track {
-    background: rgba(80, 128, 112, 0.2); /* Фон дорожки */
+    text-align: justify;
 }
 
 .slider {
@@ -154,31 +162,37 @@ main {
     overflow: scroll;
     overflow-y: hidden;
     scrollbar-width: thin;
-    scrollbar-color: rgba(80, 128, 112, 0.5) rgba(80, 128, 112, 0.2);
+    scrollbar-color: #508070 transparent;
 
 }
-.slider::-webkit-scrollbar {
-    height: 8px; /* Высота горизонтального скроллбара */
+
+@keyframes hintScroll {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(-20px);
+    }
+    75% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
 
-.slider::-webkit-scrollbar-thumb {
-    background: #508070; /* Цвет ползунка */
-    border-radius: 4px; /* Скругленные края */
-}
-
-.slider::-webkit-scrollbar-track {
-    background: rgba(80, 128, 112, 0.2); /* Фон дорожки */
-}
 .slider img {
-    width: 100%; 
+    width: 100%;
     height: auto;
+    animation: hintScroll 2s ease-in-out 2; /* Анимация выполняется 2 раза */
     padding-bottom: 5px;
     padding-top: 20px;
     padding-left: 20px;
     object-fit: contain;
 }
-
-
 .flower {
     grid-row: 9/13;
     grid-column: 3/5;

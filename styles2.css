@@ -131,7 +131,20 @@ main {
     scrollbar-color: #508070 transparent;
     grid-column: 6/12;
     grid-row: 2/12;
-    text-align: justify;
+    text-align: left;
+}
+
+.pad_edu::-webkit-scrollbar {
+    width: 8px; /* Ширина вертикального скроллбара */
+}
+
+.pad_edu::-webkit-scrollbar-thumb {
+    background: #508070; /* Цвет ползунка */
+    border-radius: 4px; /* Скругленные края */
+}
+
+.pad_edu::-webkit-scrollbar-track {
+    background: transparent; /* Фон дорожки */
 }
 
 .slider {
@@ -145,7 +158,18 @@ main {
     scrollbar-color: #508070 transparent;
 
 }
+.slider::-webkit-scrollbar {
+    height: 8px; /* Высота горизонтального скроллбара */
+}
 
+.slider::-webkit-scrollbar-thumb {
+    background: #508070; /* Цвет ползунка */
+    border-radius: 4px; /* Скругленные края */
+}
+
+.slider::-webkit-scrollbar-track {
+    background: transparent; /* Фон дорожки */
+}
 .slide {
     padding-bottom: 5px;
     padding-top: 20px;

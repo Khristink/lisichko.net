@@ -169,7 +169,7 @@ main {
 .slider::-webkit-scrollbar-track {
     background: rgba(80, 128, 112, 0.2); /* Фон дорожки */
 }
-.slider {
+.slider img {
     padding-bottom: 5px;
     padding-top: 20px;
     padding-left: 20px;

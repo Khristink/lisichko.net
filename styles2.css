@@ -155,7 +155,7 @@ main {
     overflow: scroll;
     overflow-y: hidden;
     scrollbar-width: thin;
-    scrollbar-color: #508070 transparent;
+    scrollbar-color: rgba(80, 128, 112, 0.5) rgba(80, 128, 112, 0.2);
 
 }
 .slider::-webkit-scrollbar {
@@ -170,7 +170,7 @@ main {
 .slider::-webkit-scrollbar-track {
     background: transparent; /* Фон дорожки */
 }
-.slide {
+.slider {
     padding-bottom: 5px;
     padding-top: 20px;
     padding-left: 20px;
